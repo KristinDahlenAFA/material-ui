@@ -1,6 +1,7 @@
 import * as React from "react"
 import { Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
+import { Button } from "@material-ui/core"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
@@ -11,6 +12,9 @@ const IndexPage = () => (
     <h1>Hi people</h1>
     <p>Welcome to your new Gatsby site.</p>
     <p>Now go build something great.</p>
+    <Button variant="contained" color="primary">
+      Klicka på mig
+    </Button>
     <StaticImage
       src="../images/gatsby-astronaut.png"
       width={300}
