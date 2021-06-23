@@ -8,14 +8,19 @@ import Seo from "../components/seo"
 const SecondPage = () => (
   <Layout>
     <Seo title="Page two" />
-    <Typography className={classes.textStyle}>Välkommen hit</Typography>
-
-    <Typography className={classes.textStyle}>Välkommen hit</Typography>
-
-    <Typography className={classes.textStyle}>Välkommen hit</Typography>
-
-    <Typography className={classes.textStyle}>Välkommen hit</Typography>
-    <p>Welcome to page 2</p>
+    <Typography>Välkommen hit</Typography>
+    <Typography>Välkommen hit</Typography>
+    <Typography>Välkommen hit</Typography>
+    <Typography>Välkommen hit</Typography>
+    <Typography>Välkommen hit</Typography>
+    <Typography>Välkommen hit</Typography>
+    <Typography>Välkommen hit</Typography>
+    <Typography>Välkommen hit</Typography>
+    <Typography>Välkommen hit</Typography>
+    <Typography>Välkommen hit</Typography>
+    <Typography>Välkommen hit</Typography>
+    <Typography>Välkommen hit</Typography>
+    <Typography>Välkommen hit</Typography>
 
     <h1>Hi from the second page</h1>
     <p>Welcome to page 2</p>
