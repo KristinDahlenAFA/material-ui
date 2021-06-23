@@ -6,7 +6,6 @@ import { makeStyles } from "@material-ui/core"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
-import IconAlternate from "../components/IconAlternate"
 
 const useStyles = makeStyles({
   textStyle: {
@@ -21,7 +20,6 @@ const IndexPage = () => {
     <ThemeProvider theme={theme}>
       <Layout>
         <Seo title="Home" />
-        <IconAlternate />
         <Typography className={classes.textStyle}>Välkommen hit</Typography>
         <Typography className={classes.textStyle}>Välkommen hit</Typography>
 
